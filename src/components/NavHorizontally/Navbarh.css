@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    background-color: #333; /*Background color of the navigation bar*/
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 0 10px; /* Add margin between each link */
+    transition: background-color 0.3s ease; /* Smooth transition for background-color change */
+}
+
+.menu-item:hover,
+.menu-item.active-item {
+    background-color: #555; 
+    /* Background color when hovering or when active */
+}
