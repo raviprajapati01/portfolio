@@ -7,7 +7,7 @@ export const Navbar = () => {
     const location = useLocation();
     return (
         <Menu>
-            <Link id='home' className={`menu-item ${location.pathname === '/' ? 'active-item' : ''}`} to='/'>
+            <Link id='home' className={`menu-item ${location.pathname === '/portfolio' ? 'active-item' : ''}`} to='/portfolio'>
                 Home
             </Link>
             <Link id='about' className={`menu-item ${location.pathname === '/about' ? 'active-item' : ''}`} to='/about'>

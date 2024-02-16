@@ -9,10 +9,10 @@ const GoHome = () => {
     const location = useLocation();
 
     const clickHandler = () => {
-        navigate('/');
+        navigate('/portfolio');
     };
     
-    const isRootPath = location.pathname === '/';
+    const isRootPath = location.pathname === '/portfolio';
 
     return (
         <button
