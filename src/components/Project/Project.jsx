@@ -9,7 +9,7 @@ import ProjectCart from './ProjectCart'
   return (
     <div className='section-container pro-bg'>
         <Header heading="My Projects"
-          details="Here are a cool things l've working on, do check them out!"
+          details="!"
         />
          
          <div className='project-card-container'>
