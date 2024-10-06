@@ -11,7 +11,7 @@ const ProjectCart=({
     return (
      <div className='project-cart'>
         <div className='img-container'>
-            <a href="#" className='project-external-link'>
+            <a href={projectUrl} className='project-external-link'>
                 <img  src={imageUrl} alt='project' className='project-img'/>
             </a>
         </div>
@@ -19,7 +19,7 @@ const ProjectCart=({
         <div className='project-detail-container'>
             <h2 className='project-heading'>{projectName}</h2>
             <p className='project-detail'>{projectDescription}</p>
-            <a href="#" className='project-yt-link'>explore!</a>
+            <a href={projectUrl} className='project-yt-link'>explore!</a>
         </div>
      </div>
     );
